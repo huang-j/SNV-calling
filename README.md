@@ -59,11 +59,11 @@ runMutect2MatchChr.py // paired
   
   e.g. in bash:
   
-  for f in $(find {location of interval files} | grep 'chr') ; do
+    for f in $(find {location of interval files} | grep 'chr') ; do
     
-    python runMutect2MatchChr.py -f [tab separated paired file locations] -i $f
+      python runMutect2MatchChr.py -f [tab separated paired file locations] -i $f
   
-  done
+    done
 
 GatherVCF.py //also requires gatk/4.1.0.0+
   
